@@ -10,19 +10,24 @@ function Home() {
       <h1>For your next trip</h1>
       <div className="home__section">
         <Card
-          src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
-          title="Online Experiences"
+          src="https://a0.muscache.com/im/pictures/0d4ae5be-37d9-400c-917a-de52a034fe4c.jpg?im_w=320"
+          title="Italy"
           description="Unique activities we can do together, led by a world of hosts."
         />
         <Card
-          src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
-          title="Unique stays"
-          description="Spaces that are more than just a place to sleep."
+          src="https://a0.muscache.com/im/pictures/54582c41-77ef-4f41-aa88-6a4ed0068f4b.jpg?im_w=320"
+          title="USA"
+          description="Unique activities we can do together, led by a world of hosts."
         />
         <Card
-          src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
-          title="Entire homes"
-          description="Comfortable private places, with room for friends or family."
+          src="https://a0.muscache.com/im/pictures/06248faf-fafa-4adb-9447-3a393ca625a4.jpg?im_w=320"
+          title="England"
+          description="Unique activities we can do together, led by a world of hosts."
+        />
+        <Card
+          src="https://a0.muscache.com/im/pictures/68ef0c20-321d-42c0-beb4-13bce3e258a2.jpg?im_w=320"
+          title="Turkey"
+          description="Unique activities we can do together, led by a world of hosts."
         />
       </div>
     </div>

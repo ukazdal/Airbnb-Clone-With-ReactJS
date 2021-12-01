@@ -1,9 +1,9 @@
 .banner {
-  background: url("https://a0.muscache.com/im/pictures/57b9f708-bb12-498c-bc33-769f8fc43e63.jpg")
+  background: url("https://afar-production.imgix.net/uploads/images/afar_post_headers/images/gdntiXwsip/original_3-cabin-rentals-airbnb-atlanta_20treehouse.jpg?auto=compress,format&fit=crop&crop=top&lossless=true&w=1080")
     center center;
-    height: 80vh;
+    height: 90vh;
     background-repeat:no-repeat;
-    background-size:100% 100%;
+    background-size:70% 80%;
     background-color: black;
 
     
@@ -11,8 +11,8 @@
 
 .banner__info {
   color: white;
-  padding-top: 50vh;
-  padding-left: 120px;
+  padding-top: 60vh;
+  padding-left: 200px;
   padding-right: 50px;
   padding-bottom: 40px;
 }
@@ -27,12 +27,12 @@
   background-color: black !important;
   font-weight: 900 !important;
   text-transform: inherit !important;
-  color: #ff7779 !important;
+  color: #cc2e4a !important;
 }
 
 
 .banner__info > button {
-  background-color: #ff7779;
+  background-color: #cc2e4a;
   color: white;
   text-transform: inherit;
   margin-top: 20px;
@@ -42,5 +42,5 @@
 
 .banner__info > button:hover {
   background-color: white;
-  color: #ff7779;
+  color: #cc2e4a;
 }
