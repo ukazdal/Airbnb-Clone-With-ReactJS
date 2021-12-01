@@ -3,6 +3,7 @@ import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
 import Card2 from "./Card2";
+import Question from "./Question";
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
           description="Beauty of the sea"
         />
       </div>
+      <Question />
     </div>
   );
 }
