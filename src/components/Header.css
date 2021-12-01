@@ -13,8 +13,12 @@
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
-    
+    cursor: pointer;
+}
 
+.header__icon:hover{
+   transform: scale(1.07);
+  
 }
 
 .header__center{
@@ -36,6 +40,16 @@
     /* width: 250px; */
 }
 
+.s__icon{
+    color: #ff7779;
+    cursor: pointer;
+}
+
+.s__icon:hover{
+    transform: scale(1.07);
+    
+}
+
 .header__right {
     display: flex;
     align-items: center;
@@ -43,4 +57,50 @@
     width: 15vw;
     margin-right: 80px;
     
+}
+
+.header__right > p:hover{
+    transform: scale(1.07);
+   
+}
+
+
+.ptag{
+    color: #ff7779;
+    cursor: pointer;
+}
+
+.ptag:hover{
+    transform: scale(1.07);
+    
+}
+
+.icon1{
+    color: #ff7779;
+    cursor: pointer;
+}
+
+.icon1:hover{
+    transform: scale(1.07);
+   
+}
+
+.icon2{
+    color: #ff7779;
+    cursor: pointer;
+}
+
+.icon2:hover{
+    transform: scale(1.50);
+  
+}
+
+.icon3 {
+    color: #ff7779;
+    cursor: pointer;
+}
+
+.icon3:hover{
+    transform: scale(1.07);
+  
 }

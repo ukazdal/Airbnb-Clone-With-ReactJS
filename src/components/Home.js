@@ -7,6 +7,7 @@ function Home() {
   return (
     <div className="home">
       <Banner />
+      <h1>For your next trip</h1>
       <div className="home__section">
         <Card
           src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"

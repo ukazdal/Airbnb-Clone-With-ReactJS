@@ -16,14 +16,14 @@ function Header() {
 
       <div className="header__center">
         <input type="text" />
-        <SearchIcon />
+        <SearchIcon className="s__icon" />
       </div>
 
       <div className="header__right">
-        <p>Become a host</p>
-        <LanguuageIcon />
-        <ExpandMoreIcon />
-        <Avatar />
+        <p className="ptag">Become a host</p>
+        <LanguuageIcon className="icon1" />
+        <ExpandMoreIcon className="icon2" />
+        <Avatar className="icon3" />
       </div>
     </div>
   );
