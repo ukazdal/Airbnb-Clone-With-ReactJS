@@ -8,3 +8,16 @@
     display: flex;
     margin: 80px;
 }
+
+.exp-h1 >h1 {
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.explore {
+    display: flex;
+    top: -50px;
+    margin: 80px;
+   
+}
+

@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
+import Card2 from "./Card2";
 
 function Home() {
   return (
@@ -28,6 +29,19 @@ function Home() {
           src="https://a0.muscache.com/im/pictures/68ef0c20-321d-42c0-beb4-13bce3e258a2.jpg?im_w=320"
           title="Turkey"
           description="Unique activities we can do together, led by a world of hosts."
+        />
+      </div>
+      <div className="exp-h1">
+        <h1>Explore Airbnb experiences</h1>
+      </div>
+      <div className="explore">
+        <Card2
+          src="https://cdn.pixabay.com/photo/2018/09/30/13/17/forest-3713478_1280.jpg"
+          description="A life for fresh air too"
+        />
+        <Card2
+          src="https://images.pexels.com/photos/3355788/pexels-photo-3355788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          description="Beauty of the sea"
         />
       </div>
     </div>
