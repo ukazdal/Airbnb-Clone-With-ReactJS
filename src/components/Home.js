@@ -35,6 +35,7 @@ function Home() {
       <div className="exp-h1">
         <h1>Explore Airbnb experiences</h1>
       </div>
+      <div className="container"></div>
       <div className="explore">
         <Card2
           src="https://cdn.pixabay.com/photo/2018/09/30/13/17/forest-3713478_1280.jpg"
@@ -45,7 +46,9 @@ function Home() {
           description="Beauty of the sea"
         />
       </div>
-      <Question />
+      <div className="container">
+        <Question />
+      </div>
     </div>
   );
 }

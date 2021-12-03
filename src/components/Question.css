@@ -1,21 +1,21 @@
+
 .question {
     background:
-    url("https://blog.payoneer.com/wp-content/uploads/2017/04/6-things-need-to-do-vacation-rental-host.jpg")      center center;
+    url("https://news.airbnb.com/wp-content/uploads/sites/4/2020/09/PJM013418Q316-Garden_Home-05631_JL1-e1600103048821Featured.jpg")      center center;
     height: 90vh;
     background-repeat:no-repeat;
-    background-size:80% 80%;
-    border: 1px solid white;
-    border-radius:40% ;
-    -webkit-border-radius:40% ;
-    -moz-border-radius:40% ;
-    -ms-border-radius:40% ;
-    -o-border-radius:40% ;
-}
+    background-size:100% 100%;
+    border-radius:10px ;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}   
 
 .question__info{
     color: white;
     padding-top: 60vh;
-    padding-left: 20%;
+    padding-left: 5%;
     padding-right: 50px;
     padding-bottom: 40px;
     font-size: 20px;
@@ -23,8 +23,8 @@
 }
 
   .question__info > button {
-    background-color: white;
-    color: black;
+    background-color: #cc2e4a;
+    color: white;
     text-transform: inherit;
     margin-top: 20px;
     font-weight: 600;
@@ -32,6 +32,6 @@
   
   
   .question__info > button:hover {
-    background-color:#cc2e4a;
-    color: white;
+    background-color:white;
+    color: #cc2e4a;
   }

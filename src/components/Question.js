@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core";
 
 function Question() {
   return (
-    <div className="question">
+    <div className="question container">
       <div className="question__info">
         <h1> Have a question about hosting?</h1>
 
