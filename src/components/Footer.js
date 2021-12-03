@@ -40,7 +40,7 @@ function Footer() {
         </div>
       </div>
       <div className="designer">
-        <p>© 2021 Airbnb, Inc.·security·Conditions·Sitemap</p>
+        <p>© 2021 Airbnb, Inc. · security · Conditions · Sitemap</p>
         <h5>
           By Ukazdal <LinkedInIcon />
         </h5>
