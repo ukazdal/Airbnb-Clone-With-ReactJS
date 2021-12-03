@@ -20,10 +20,11 @@ function SearchResult({
       <div className="searchResult__info">
         <div className="searchResult__infoTop">
           <p>{location}</p>
-          <p>{title}</p>
-          <p>_____</p>
+          <h3>{title}</h3>
+          <p>____</p>
           <p>{description}</p>
         </div>
+
         <div className="searchResult__infoBottom">
           <div className="searchResult__stars">
             <StarIcon className="searchResult__star" />
@@ -31,7 +32,7 @@ function SearchResult({
               <strong>{star}</strong>
             </p>
           </div>
-          <div className="searchResult__price">
+          <div className="searchResults__price">
             <h2>{price}</h2>
             <p>{total}</p>
           </div>
