@@ -1,32 +1,91 @@
-.footer{
-    display: flex;
-    margin-right: 20px;
-    justify-content: center;
-    border-top: 1px solid lightgray;
-    padding: 20px;
+.container {
     background-color: #f7f7f7;
-    bottom: 0;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    padding-top: 50px;
+    border-bottom: 1px solid lightgray;
+    
     
 }
-
 .footer-left {
+    margin-left: 60px;
+    cursor: pointer;
     margin-right: 12px;
-
 }
+
 .footer-left >p {
-    margin-top: 10px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 .footor-main {
+    cursor: pointer;
+}
+
+.footor-main > p{
+    margin-top: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.footor-main > h5 {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+.footer-right > p {
+    margin-top: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.footer-right >h5 {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.footer-end{
+    margin-right: 60px;
+    margin-bottom: 40px;
+    cursor: pointer;
+   
+}
+
+.footer-end > p {
+    margin-top: 15px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.footer-end > h5 {
+    margin-left: 30px;
+    cursor: pointer;
 
 }
 
-.footer-right{
 
-
+.designer {
+    margin-top: 40px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+  
 }
 
-.footer-end {
-
+.designer > p {
+    cursor: pointer;
 }
 
+.designer > h5 {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

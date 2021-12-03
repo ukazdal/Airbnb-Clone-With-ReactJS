@@ -46,9 +46,8 @@ function Home() {
           description="Beauty of the sea"
         />
       </div>
-      <div className="container">
-        <Question />
-      </div>
+
+      <Question />
     </div>
   );
 }
