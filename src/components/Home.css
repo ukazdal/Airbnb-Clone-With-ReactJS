@@ -11,6 +11,10 @@
     margin: 80px;
 }
 
+.home__section > .home__link{
+    text-decoration: none;
+}
+
 
 .exp-h1 >h1 {
     padding-top: 10px;
@@ -20,11 +24,12 @@
 .explore {
     display: flex;
     top: -50px;
-    margin: 80px;  
+    margin: 80px;
+    text-decoration: none;
 }
 
-.link{
+
+.explore > .exp__link{
     text-decoration: none;
-    color:white;
 }
 
