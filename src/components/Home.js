@@ -4,7 +4,8 @@ import Banner from "./Banner";
 import Card from "./Card";
 import Card2 from "./Card2";
 import Question from "./Question";
-// import { Link } from "react-router-dom";
+import { Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -46,6 +47,19 @@ function Home() {
       </div>
 
       <div className="explore">
+        {/* <div className="explore__left">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/09/30/13/17/forest-3713478_1280.jpg"
+            alt=""
+          />
+        </div>
+        <div className="explore__right">
+          <img
+            src="https://images.pexels.com/photos/3355788/pexels-photo-3355788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+        </div> */}
+
         {/* <Link to="/search" className="exp__link"> */}
         <Card2
           src="https://cdn.pixabay.com/photo/2018/09/30/13/17/forest-3713478_1280.jpg"
