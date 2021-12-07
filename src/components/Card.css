@@ -10,7 +10,8 @@
     background-color: #cc2e4a;;
     height: 550px;
     width: 400px;
-    
+    text-decoration: none;
+   
     
   }
   
@@ -31,12 +32,14 @@
       padding: 20px;
       padding-top: 20px;
       border: 1;
+    
     }
   
     .card__info > h2 {
       font-size: 40px;
       font-weight: 600;
       color: white;
+     
     }
     
     .card__info > h4 {
@@ -44,7 +47,8 @@
       font-weight: 300;
       margin-top: 8px;
       margin-bottom: 8px;
-      color: white;
+      color: white; 
+     
     }
 
 

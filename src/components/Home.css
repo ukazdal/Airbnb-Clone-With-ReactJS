@@ -2,6 +2,7 @@
 .home >h1 {
     padding-top: 100px;
     padding-left: 100px;
+   
 }
 
 .home__section {
@@ -9,6 +10,7 @@
     display: flex;
     margin: 80px;
 }
+
 
 .exp-h1 >h1 {
     padding-top: 10px;
@@ -18,7 +20,11 @@
 .explore {
     display: flex;
     top: -50px;
-    margin: 80px;
-   
+    margin: 80px;  
+}
+
+.link{
+    text-decoration: none;
+    color:white;
 }
 

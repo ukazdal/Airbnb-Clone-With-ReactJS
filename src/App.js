@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SearchPage from "./components/SearchPage";
+import Homemessage from "./components/pages/homemessage";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Switch>
           <Route path="/search">
             <SearchPage />
+          </Route>
+          <Route path="/message">
+            <Homemessage />
           </Route>
 
           <Route path="/">

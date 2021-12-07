@@ -16,16 +16,19 @@ function Home() {
           title="Italy"
           description="Unique activities we can do together, led by a world of hosts."
         />
+
         <Card
           src="https://a0.muscache.com/im/pictures/54582c41-77ef-4f41-aa88-6a4ed0068f4b.jpg?im_w=320"
           title="USA"
           description="Unique activities we can do together, led by a world of hosts."
         />
+
         <Card
           src="https://a0.muscache.com/im/pictures/06248faf-fafa-4adb-9447-3a393ca625a4.jpg?im_w=320"
           title="England"
           description="Unique activities we can do together, led by a world of hosts."
         />
+
         <Card
           src="https://a0.muscache.com/im/pictures/68ef0c20-321d-42c0-beb4-13bce3e258a2.jpg?im_w=320"
           title="Turkey"
@@ -35,7 +38,7 @@ function Home() {
       <div className="exp-h1">
         <h1>Explore Airbnb experiences</h1>
       </div>
-      <div className="container"></div>
+
       <div className="explore">
         <Card2
           src="https://cdn.pixabay.com/photo/2018/09/30/13/17/forest-3713478_1280.jpg"
