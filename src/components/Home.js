@@ -4,8 +4,8 @@ import Banner from "./Banner";
 import Card from "./Card";
 import Card2 from "./Card2";
 import Question from "./Question";
-import { Button } from "@material-ui/core";
-import { Link } from "react-router-dom";
+// import { Button } from "@material-ui/core";
+// import { Link } from "react-router-dom";
 
 function Home() {
   return (
